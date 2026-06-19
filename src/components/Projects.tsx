@@ -164,10 +164,10 @@ export default function Projects({ projects }: ProjectsProps) {
             })}
           </div>
 
-          {/* Interactive Playgrounds and Demos / Right Column */}
-          <div className="lg:col-span-7 flex flex-col bg-white border-2 border-slate-900 rounded-none overflow-hidden shadow-sm">
+          {/* /* {/* Interactive Playgrounds and Demos / Right Column */}
+          {/* <div className="lg:col-span-7 flex flex-col bg-white border-2 border-slate-900 rounded-none overflow-hidden shadow-sm"> */}
             {/* Playgrounds Tabs header */}
-            <div className="flex border-b-2 border-slate-900 bg-slate-100 p-1">
+            {/* <div className="flex border-b-2 border-slate-900 bg-slate-100 p-1">
               <button
                 onClick={() => setActiveTab('details')}
                 className={`flex-1 py-3 px-4 text-[10px] font-mono font-bold uppercase tracking-widest rounded-none cursor-pointer transition-colors ${
@@ -175,7 +175,7 @@ export default function Projects({ projects }: ProjectsProps) {
                     ? 'bg-slate-900 text-white border border-slate-850'
                     : 'text-slate-500 hover:text-slate-800'
                 }`}
-              >
+              > }
                 Project Focus Details
               </button>
               <button
@@ -267,7 +267,7 @@ export default function Projects({ projects }: ProjectsProps) {
                   >
                     {selectedProjectId === 'personal-portfolio' ? (
                       /* Demo 1: Mini portfolio real-time hue color simulator */
-                      <div className="space-y-6">
+                      {/* <div className="space-y-6">
                         <div>
                           <span className="text-[10px] uppercase font-mono tracking-widest text-indigo-600 font-bold block mb-1">
                             HTML/CSS DESIGN LAB
@@ -278,10 +278,10 @@ export default function Projects({ projects }: ProjectsProps) {
                           <p className="text-xs text-slate-505 leading-relaxed mt-1">
                             Simulate how CSS utility overrides instantly adapt visual hierarchy and font layout contrast.
                           </p>
-                        </div>
+                        </div> */}
 
                         {/* Interactive UI card wrapper */}
-                        <div className="bg-slate-50 border border-slate-200 p-5 rounded-none space-y-4">
+                        {/* <div className="bg-slate-50 border border-slate-200 p-5 rounded-none space-y-4">
                           <span className="text-[9px] font-mono text-slate-500 font-bold uppercase block">REAL-TIME PREVIEW MOCKUP:</span>
                           
                           <div className="bg-white border-2 border-slate-900 rounded-none p-4 text-center space-y-3">
@@ -322,10 +322,10 @@ export default function Projects({ projects }: ProjectsProps) {
                               ))}
                             </div>
                           </div>
-                        </div>
+                        </div> */}
 
                         {/* Interactive dynamic code display output */}
-                        <div className="p-3 bg-slate-900 rounded-none text-left">
+                        {/* <div className="p-3 bg-slate-900 rounded-none text-left">
                           <code className="text-[9px] text-indigo-305 text-indigo-300 font-mono leading-relaxed block overflow-x-auto whitespace-pre">
                             {`<!-- Real-time Styled output -->\n<div class="p-4 rounded-none border border-slate-900">\n  <button class="px-4 py-2 ${portfolioHue} text-white font-bold uppercase">\n    Active Theme: ${portfolioThemeName.split(' ')[0]}\n  </button>\n</div>`}
                           </code>
@@ -333,7 +333,7 @@ export default function Projects({ projects }: ProjectsProps) {
                       </div>
                     ) : (
                       /* Demo 2: Algorithm visualizer! */
-                      <div className="space-y-6 flex-1 flex flex-col justify-between">
+                      {/* <div className="space-y-6 flex-1 flex flex-col justify-between">
                         <div>
                           <div className="flex items-center justify-between gap-1">
                             <span className="text-[10px] uppercase font-mono tracking-widest text-indigo-600 font-bold block">
@@ -342,17 +342,17 @@ export default function Projects({ projects }: ProjectsProps) {
                             <span className="text-[10px] font-mono text-slate-400">O(N²) Complex</span>
                           </div>
                           <h4 className="text-base font-display font-black text-slate-950 uppercase mt-1">
-                            Sorting visualizer logic loop
-                          </h4>
-                          <p className="text-xs text-slate-505 leading-relaxed mt-1">
-                            See how array index swaps resolve and order randomized variables sequentially down the track.
-                          </p>
-                        </div>
+                            Sorting visualizer logic loop */}
+                        //   </h4> */}
+                        //   <p className="text-xs text-slate-505 leading-relaxed mt-1">
+                        //     See how array index swaps resolve and order randomized variables sequentially down the track.
+                        //   </p>
+                        // </div>
 
                         {/* Chart representation */}
-                        <div className="bg-slate-50 border border-slate-200 p-6 rounded-none flex flex-col justify-between min-h-[220px]">
+                        {/* <div className="bg-slate-50 border border-slate-200 p-6 rounded-none flex flex-col justify-between min-h-[220px]"> */}
                           {/* Columns container */}
-                          <div className="flex items-end justify-center gap-2.5 sm:gap-4.5 h-36 border-b border-slate-250 pb-2">
+                          {/* <div className="flex items-end justify-center gap-2.5 sm:gap-4.5 h-36 border-b border-slate-250 pb-2">
                             {sortArray.map((val, idx) => {
                               const isComparing = compareIndices?.includes(idx);
                               const isSwapping = swapIndices?.includes(idx);
@@ -365,15 +365,15 @@ export default function Projects({ projects }: ProjectsProps) {
                               }
 
                               return (
-                                <div key={idx} className="flex-1 flex flex-col items-center gap-1.5 max-w-[28px] sm:max-w-[36px]">
+                                <div key={idx} className="flex-1 flex flex-col items-center gap-1.5 max-w-[28px] sm:max-w-[36px]"> */}
                                   {/* Value label */}
-                                  <span className={`text-[9px] font-bold font-mono ${
+                                  {/* <span className={`text-[9px] font-bold font-mono ${
                                     isComparing || isSwapping ? 'text-slate-900' : 'text-slate-400'
                                   }`}>
                                     {val}
-                                  </span>
+                                  </span> */}
                                   {/* Bar graphic - strictly geometric rounded-none */}
-                                  <motion.div
+                                  {/* <motion.div
                                     style={{ height: `${val * 1.2}px` }}
                                     className={`w-full rounded-none transition-colors duration-250 ${barColor}`}
                                     layout
@@ -381,16 +381,16 @@ export default function Projects({ projects }: ProjectsProps) {
                                 </div>
                               );
                             })}
-                          </div>
+                          </div> */}
 
-                          {/* Trace Status Line */}
-                          <div className="mt-4 bg-white border border-slate-205 px-3 py-2 rounded-none text-[10px] font-mono font-bold uppercase text-slate-600 text-center leading-normal">
+                          /* {/* Trace Status Line */}
+                          {/* <div className="mt-4 bg-white border border-slate-205 px-3 py-2 rounded-none text-[10px] font-mono font-bold uppercase text-slate-600 text-center leading-normal">
                             🔀 Status: <span className="text-indigo-600">{sortingStep}</span>
                           </div>
-                        </div>
+                        </div> */ */}
 
                         {/* Actions control bar */}
-                        <div className="flex flex-wrap items-center justify-between gap-4 pt-1">
+                        {/* <div className="flex flex-wrap items-center justify-between gap-4 pt-1">
                           <button
                             onClick={generateRandomArray}
                             className="flex items-center gap-1.5 px-3 py-2 text-[10px] font-mono font-bold uppercase text-slate-700 hover:text-slate-950 bg-slate-50 border border-slate-200 rounded-none cursor-pointer hover:bg-slate-100 transition-colors"
@@ -403,8 +403,8 @@ export default function Projects({ projects }: ProjectsProps) {
                             onClick={runBubbleSort}
                             className={`flex items-center gap-2 px-5 py-2.5 text-[10px] font-mono font-bold uppercase rounded-none cursor-pointer transition-all ${
                               isSorting
-                                ? 'bg-indigo-700 text-white hover:bg-indigo-800'
-                                : 'bg-slate-900 text-white hover:bg-indigo-600'
+                                ? 'bg-indigo-700 text-white hover:bg-indigo-800' */}
+                                {/* : 'bg-slate-900 text-white hover:bg-indigo-600'
                             }`}
                           >
                             {isSorting ? (
@@ -422,9 +422,9 @@ export default function Projects({ projects }: ProjectsProps) {
                     )}
                   </motion.div>
                 )}
-              </AnimatePresence>
-            </div>
-          </div>
+              </AnimatePresence> */}
+            {/* </div> */}
+          {/* </div> */ */} */}
         </div>
       </div>
     </section>
